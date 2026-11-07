@@ -1,0 +1,15 @@
+# виртуальное окружение — ставится заново из requirements.txt
+.venv/
+
+# датасеты — скачиваются кодом (download=True)
+data/
+*.tar.gz
+
+# веса моделей — большие бинарные файлы
+*.pt
+*.pth
+
+# служебный мусор
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
